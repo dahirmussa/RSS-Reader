@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "956660296112",
+    "project_id": "customsnewreader",
+    "storage_bucket": "customsnewreader.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:956660296112:android:2cf2c636f6d7d5754e0e75",
+        "android_client_info": {
+          "package_name": "com.example.customsrss"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "956660296112-mlm5jkli88tempca9sdej6jj7jbt33mn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBKdV6OgkXS91KA-iDCd_JIgNRvdGi1DdE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "956660296112-mlm5jkli88tempca9sdej6jj7jbt33mn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

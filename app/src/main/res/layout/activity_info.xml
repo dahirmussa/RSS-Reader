@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".info">
+
+
+    <EditText
+        android:id="@+id/rssItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="RSS Title" />
+
+    <EditText
+        android:id="@+id/rssDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="RSS Description" />
+
+    <Button
+        android:id="@+id/sendToFB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="sendToFB"
+        android:text="Send to Firebase" />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/fragment"
+        />
+
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigation"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/button_menu"
+        android:background="@color/white"
+        android:layout_height="50dp"
+        />
+
+
+</LinearLayout>

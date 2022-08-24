@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">CustomsRss</string>
+    <string name="connection_error">error</string>
+    <string name="xml_error">xmlerror</string>
+    <string name="page_title">title</string>
+    <string name="updated">updates</string>
+</resources>
